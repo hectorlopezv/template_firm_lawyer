@@ -8,7 +8,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Albert_Sans } from "next/font/google";
 import React from "react";
-import "../../globals.css";
+import "../globals.css";
 
 const albertSans = Albert_Sans({
   subsets: ["latin"],
