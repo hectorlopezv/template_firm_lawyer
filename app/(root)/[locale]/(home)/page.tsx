@@ -1,24 +1,23 @@
-import PostBannerBox from "@/components/home/postBannerBox";
-import IconsWithCounters from "@/components/home/iconsWithCounters";
-import TwoColumnTextWithImage from "@/components/home/twoColumnTextWithImage";
-import Features from "@/components/home/Features";
-import CTA from "@/components/shared/CTA";
-import PracticeAreas from "@/components/home/PracticeAreas";
 import BlogPosts from "@/components/home/BlogPosts";
 import FAQs from "@/components/home/FAQs";
+import Features from "@/components/home/Features";
+import PracticeAreas from "@/components/home/PracticeAreas";
 import TeamMembers from "@/components/home/TeamMembers";
-import Banner from "@/components/home/banner";
-import PreFooter from "@/components/shared/PreFooter";
 import Testimonials from "@/components/home/Testimonials";
-import { Metadata } from "next";
+import Banner from "@/components/home/banner";
+import IconsWithCounters from "@/components/home/iconsWithCounters";
+import PostBannerBox from "@/components/home/postBannerBox";
+import TwoColumnTextWithImage from "@/components/home/twoColumnTextWithImage";
+import CTA from "@/components/shared/CTA";
+import PreFooter from "@/components/shared/PreFooter";
+import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Welcome to Lawyero",
-  description: "Your one stop solution for legal matters",
-};
 const Home = () => {
+  const t = useTranslations("Index");
   return (
     <>
+      <h1>{t("title")}</h1>
       <Banner />
       <PostBannerBox />
       <IconsWithCounters />
@@ -47,3 +46,12 @@ const Home = () => {
 };
 
 export default Home;
+
+export async function generateMetadata({ params: { locale } }: any) {
+  const t = await getTranslations({ locale});
+
+  return {
+    title: t("title"),
+    description: "Your one stop solution for legal matters",
+  };
+}
