@@ -9,6 +9,10 @@ import teammember2 from "@/public/assets/team-member-2.jpg";
 import teammember3 from "@/public/assets/team-member-3.jpg";
 import teammember4 from "@/public/assets/team-member-4.jpg";
 import teammember5 from "@/public/assets/team-member-5.jpg";
+import a1 from "@/public/assets/a_1.jpeg";
+import a2 from "@/public/assets/a_2.jpeg";
+import a3 from "@/public/assets/a_3.jpeg";
+
 import testimonialimg1 from "@/public/assets/home-testimonial-img-1.jpeg";
 import testimonialimg2 from "@/public/assets/home-testimonial-img-2.jpeg";
 import testimonialimg3 from "@/public/assets/home-testimonial-img-3.jpeg";
@@ -41,24 +45,24 @@ import {
 export const bannerItems: bannerItemsType[] = [
   {
     id: 1,
-    content: "Your Consultant for every legal Issue",
-    linkText: "Find out More",
+    content: "Su firma de abogados para cada problema legal",
+    linkText: "Conocenos",
     image: banner1,
-    linkHref: "#",
+    linkHref: "/contact",
   },
   {
     id: 2,
-    content: "Your Consultant for every legal Issue",
-    linkText: "Find out More",
+    content: "Sin importar cuán complejo sea su problema legal",
+    linkText: "Conocenos",
     image: banner2,
-    linkHref: "#",
+    linkHref: "/contact",
   },
   {
     id: 3,
-    content: "Your Consultant for every legal Issue",
-    linkText: "Find out More",
+    content: "Nuestros abogados están comprometidos con usted",
+    linkText: "Conocenos",
     image: banner3,
-    linkHref: "#",
+    linkHref: "/contact",
   },
 ];
 
@@ -180,7 +184,7 @@ export const FAQData: FAQsProps[] = [
     id: 4,
     question: "Which Areas Do You Cover?",
     answer:
-      "We cover multiple areas mainly involving Family Law, Child Law, Emergency Law and Business Law. The complete list of all the practice areas can be found on this website.",
+      "We cover multiple areas mainly involving Family Law, Child Law, Emergency Law and Business Law. The complete list of all the Areas De Practica can be found on this website.",
   },
   {
     id: 5,
@@ -200,39 +204,39 @@ export const FAQData: FAQsProps[] = [
 export const TeamMembers: TeamMembersProps[] = [
   {
     id: 1,
-    image: teammember1,
+    image: a1,
     href: "#",
-    name: "Robert Darren",
-    designation: "Bank & Finance Lawyer",
+    name: "Hector Lopez",
+    designation: "Abogado Especialista en derecho laboral y seguridad social",
   },
   {
     id: 2,
-    image: teammember2,
+    image: a2,
     href: "#",
-    name: "Tady Walsh",
-    designation: "Child Custody Lawyer",
+    name: "Isabel Molinares",
+    designation: "Abogada Especialista en derecho laboral y seguridad social",
   },
   {
     id: 3,
-    image: teammember3,
+    image: a3,
     href: "#",
-    name: "Alanna",
-    designation: "Business lawyer",
+    name: "Alejandro Molinares",
+    designation: "Asesor Juridico Lopez & Abogados",
   },
-  {
-    id: 4,
-    image: teammember4,
-    href: "#",
-    name: "Frank Moses",
-    designation: "Injury Expert lawyer",
-  },
-  {
-    id: 5,
-    image: teammember5,
-    href: "#",
-    name: "John Doe",
-    designation: "International Law lawyer",
-  },
+  // {
+  //   id: 4,
+  //   image: teammember4,
+  //   href: "#",
+  //   name: "Frank Moses",
+  //   designation: "Injury Expert lawyer",
+  // },
+  // {
+  //   id: 5,
+  //   image: teammember5,
+  //   href: "#",
+  //   name: "John Doe",
+  //   designation: "International Law lawyer",
+  // },
 ];
 
 // Data for Testimonials
@@ -263,7 +267,7 @@ export const Testimonials: TestimonialsProps[] = [
   },
 ];
 
-// Data for Practice Areas
+// Data for Areas De Practica
 export const PAData: PADataProps[] = [
   {
     id: 1,

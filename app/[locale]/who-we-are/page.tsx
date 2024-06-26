@@ -20,7 +20,7 @@ const page = () => {
       <TeamMembers />
       <CTA
         bgClass="bg-primary-main"
-        headline="Get the consultation For Most Complex Legal Issues."
+        headline="Obtenga la consulta para las cuestiones legales más complejas."
         buttonLink="#"
         buttonText="Contact Us"
         ctaType="withBg"

@@ -10,27 +10,25 @@ import PostBannerBox from "@/components/home/postBannerBox";
 import TwoColumnTextWithImage from "@/components/home/twoColumnTextWithImage";
 import CTA from "@/components/shared/CTA";
 import PreFooter from "@/components/shared/PreFooter";
-import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 
 const Home = () => {
-  const t = useTranslations("Index");
+  // const t = useTranslations("Index");
   return (
     <>
-      <h1>{t("title")}</h1>
       <Banner />
       <PostBannerBox />
       <IconsWithCounters />
       <TwoColumnTextWithImage />
       <Features />
       <CTA
-        headline="Get the consultation For Most Complex Legal Issues."
+        headline="Obtenga la consulta para las cuestiones legales más complejas."
         buttonLink="#"
-        buttonText="Contact Us"
+        buttonText="Conocenos"
         ctaType="withBg"
       />
       <PracticeAreas />
-      <BlogPosts />
+      {/* <BlogPosts /> */}
       <TeamMembers />
       <CTA
         headline="We Treat Every Case Equally With Same Attention And Dedication Because Every Client Matters."

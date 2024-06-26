@@ -31,9 +31,9 @@ import {
 export const BannerIconBoxes: BannerIconBoxesProps[] = [
   {
     id: 1,
-    headline: "20+ Years Of Experience",
+    headline: "15+ Años De Experiencia",
     content:
-      "We are in the law industry for more than 20 years with more than 98% of client satisfaction",
+      "Estamos en la industria del derecho por más de 15 años con más del 98% de satisfacción del cliente.",
     iconName: (
       <User
         size="60"
@@ -44,9 +44,9 @@ export const BannerIconBoxes: BannerIconBoxesProps[] = [
   },
   {
     id: 2,
-    headline: "Qualified And Experienced Attorneys",
+    headline: "Abogados Calificados y Experimentados",
     content:
-      "Our team is the best in the business. We are team of attorneys which are passionate about their jobs.",
+      "Nuestro equipo es el mejor en el negocio. Somos un equipo de abogados apasionados por su trabajo.",
     iconName: (
       <BriefcaseBusiness
         size="60"
@@ -57,9 +57,9 @@ export const BannerIconBoxes: BannerIconBoxesProps[] = [
   },
   {
     id: 3,
-    headline: "Awards And Achievements",
+    headline: "Satifaccion Al Cliente",
     content:
-      "We at lawyero earned the best law firm award in 2017 with a success ratio of 99%.",
+      "Siempre buscamos darles el mejor servicio posible, con los mejores resultados del mercado",
     iconName: (
       <Trophy
         size="60"
@@ -74,9 +74,9 @@ export const BannerIconBoxes: BannerIconBoxesProps[] = [
 export const HomepageFeatures: FeaturesProps[] = [
   {
     id: 1,
-    headline: "PERSONAL SERVICE",
+    headline: "SERVICIO PERSONALIZADO",
     content:
-      "Our attorneys are committed to you and will work vigorously to obtain the best possible recovery in your case.",
+      "Nuestros abogados están comprometidos con usted y trabajarán vigorosamente para obtener el mejor resultado posible en su caso.",
     iconName: (
       <Link
         size="60"
@@ -86,9 +86,9 @@ export const HomepageFeatures: FeaturesProps[] = [
   },
   {
     id: 2,
-    headline: "SCREENING FREE",
+    headline: "SIN COSTO INICIAL",
     content:
-      "At the our law Firm, you do not have to go through a call screen. You will get to speak to an attorney directly, preferably the one who will be handling your case.",
+      "En nuestro Bufete de abogados no es necesario pasar por una pantalla de llamadas. Podrá hablar directamente con un abogado, preferiblemente el que manejará su caso.",
     iconName: (
       <Phone
         size="60"
@@ -98,9 +98,9 @@ export const HomepageFeatures: FeaturesProps[] = [
   },
   {
     id: 3,
-    headline: "ALWAYS RESPONSIVE",
+    headline: "SIN DEMORAS",
     content:
-      "Your attorney will address any problems quickly and respect your time by promptly replying to your inquiries.",
+      "Su abogado abordará cualquier problema rápidamente y respetará su tiempo respondiendo rápidamente a sus consultas.",
     iconName: (
       <Coffee
         size="60"
@@ -110,9 +110,9 @@ export const HomepageFeatures: FeaturesProps[] = [
   },
   {
     id: 4,
-    headline: "CASE EXPERIENCE",
+    headline: "EXPERIENCA EN CASOS",
     content:
-      "Our attorneys are experienced and can handle any type of injury case for you.",
+      "Nuestros abogados tienen experiencia y pueden manejar cualquier tipo de casos por usted.",
     iconName: (
       <BriefcaseBusiness
         size="60"
@@ -245,7 +245,7 @@ export const HomepagePAs: HomepagePAsProps[] = [
   {
     id: 1,
     link: "#",
-    PA: "Family Law",
+    PA: "Pensiones De Vejez",
     iconName: (
       <Scale size={60} className="h-14 w-16 border-2 border-none text-white" />
     ),
@@ -253,7 +253,7 @@ export const HomepagePAs: HomepagePAsProps[] = [
   {
     id: 2,
     link: "#",
-    PA: "Child Custody",
+    PA: "Pension De Invalidez",
     iconName: (
       <PersonStanding
         size={60}
@@ -264,7 +264,7 @@ export const HomepagePAs: HomepagePAsProps[] = [
   {
     id: 3,
     link: "#",
-    PA: "Auto Accidents",
+    PA: "Pensiones De Sobrevivientes",
     iconName: (
       <CarFront
         size={60}
@@ -275,7 +275,7 @@ export const HomepagePAs: HomepagePAsProps[] = [
   {
     id: 4,
     link: "#",
-    PA: "Business Law",
+    PA: "Reliquidacion De Su Pension",
     iconName: (
       <PoundSterling
         size={60}
@@ -286,7 +286,7 @@ export const HomepagePAs: HomepagePAsProps[] = [
   {
     id: 5,
     link: "#",
-    PA: "Internet Fraud",
+    PA: "Devolucion de Aportes Fondos Privados",
     iconName: (
       <Tv size={60} className="h-14 w-16 border-2 border-none text-white" />
     ),
@@ -294,7 +294,7 @@ export const HomepagePAs: HomepagePAsProps[] = [
   {
     id: 6,
     link: "#",
-    PA: "Sports Injury",
+    PA: "Imndemnizacion Por Daños Y Perjuicios",
     iconName: (
       <CircleGauge
         size={60}
@@ -302,28 +302,28 @@ export const HomepagePAs: HomepagePAsProps[] = [
       />
     ),
   },
-  {
-    id: 7,
-    link: "#",
-    PA: "Emergency Law",
-    iconName: (
-      <Ambulance
-        size={60}
-        className="h-14 w-16 border-2 border-none text-white"
-      />
-    ),
-  },
-  {
-    id: 8,
-    link: "#",
-    PA: "Drowning Law",
-    iconName: (
-      <CirclePlay
-        size={60}
-        className="h-14 w-16 border-2 border-none text-white"
-      />
-    ),
-  },
+  // {
+  //   id: 7,
+  //   link: "#",
+  //   PA: "Emergency Law",
+  //   iconName: (
+  //     <Ambulance
+  //       size={60}
+  //       className="h-14 w-16 border-2 border-none text-white"
+  //     />
+  //   ),
+  // },
+  // {
+  //   id: 8,
+  //   link: "#",
+  //   PA: "Drowning Law",
+  //   iconName: (
+  //     <CirclePlay
+  //       size={60}
+  //       className="h-14 w-16 border-2 border-none text-white"
+  //     />
+  //   ),
+  // },
 ];
 
 // Data for Stats Counter
@@ -333,15 +333,15 @@ export const StatsWithIcon: StatsWithIconProps[] = [
     amountPreText: "",
     amount: 150,
     amountPostText: "+",
-    text: "Customers",
+    text: "Clientes",
     iconName: <Handshake size={72} className="border-2 p-4 text-white" />,
   },
   {
     id: 2,
     amountPreText: "$",
-    amount: 23000000,
+    amount: 5000000000,
     amountPostText: "",
-    text: "Recovered",
+    text: "Recuperados",
     iconName: <DollarSign size={72} className="border-2 p-4 text-white" />,
   },
   {
@@ -349,7 +349,7 @@ export const StatsWithIcon: StatsWithIconProps[] = [
     amountPreText: "",
     amount: 98,
     amountPostText: "%",
-    text: "Success Rato",
+    text: "Efectividad",
     iconName: <ThumbsUp size={72} className="border-2 p-4 text-white" />,
   },
 ];
@@ -374,7 +374,7 @@ export const StatsWithIconTeam: StatsWithIconProps[] = [
     amountPreText: "",
     amount: 98,
     amountPostText: "%",
-    text: "Success Rato",
+    text: "Efectividad",
     iconName: (
       <ThumbsUp
         size={72}

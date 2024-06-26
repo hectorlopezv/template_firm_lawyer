@@ -37,7 +37,7 @@ const BackgroundAndPA = () => {
           </div>
           <div className="relative basis-full px-0 pb-10 pt-16 before:absolute before:left-0 before:top-0 before:z-[-1] before:h-full before:w-[80vw] before:bg-white before:content-[''] lg:basis-3/5 lg:pb-16 lg:pl-12 lg:pr-11 lg:pt-24">
             <PrimaryHeadline
-              text="Practice Areas"
+              text="Areas De Practica"
               additionalClass="primary-headline-left text-[32px]"
               headlineType="h3"
             />

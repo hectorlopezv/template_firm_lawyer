@@ -14,11 +14,12 @@ export function TeamMembersCarousel({ textColor }: { textColor?: string }) {
   return (
     <Carousel
       opts={{
-        align: "start",
+        align: "end",
         loop: true,
+
       }}
     >
-      <CarouselContent className="pt-3">
+      <CarouselContent className="pt-3 flex justify-center items-center">
         {TeamMembers.map((item) => (
           <CarouselItem
             key={`team${item.id}`}

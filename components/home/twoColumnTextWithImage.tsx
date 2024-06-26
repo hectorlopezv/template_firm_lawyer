@@ -2,30 +2,24 @@ import React from "react";
 import ButtonCustom from "../global/button";
 import PrimaryHeadline from "../global/primary-headline";
 import Image from "next/image";
-import homefirmimage from "@/public/assets/home-member1.jpg";
+import homefirmimage from "@/public/assets/a_1.jpeg";
 
 const TwoColumnTextWithImage = () => {
   return (
     <div className="container py-16 sm:py-20">
       <div className="flex flex-wrap gap-8 lg:flex-nowrap">
         <div className="basis-full lg:basis-[70%]">
-          <PrimaryHeadline text="About Firm" />
+          <PrimaryHeadline text="Sobre Nosotros" />
           <div className="text-base text-[#333]">
             <p className="mb-6">
-              The attorneys of Lawyero have proven their ability to obtain
-              excellent results on behalf of clients across industries in a wide
-              range of disputes, from complex, international tech-based
-              litigation to shareholder/partnership disputes and high-profile
-              art transactions.
+            Lopez & Abogados, un despacho legal comprometido con brindar asesoría y representación de alta calidad en las áreas de Derecho Laboral, Seguridad Social y Pensiones. Nuestra misión es ofrecer soluciones legales eficaces y personalizadas, atendiendo las necesidades específicas de cada uno de nuestros clientes con profesionalismo y dedicación.
             </p>
 
             <p className="mb-6">
-              Contact our office today to schedule a confidential consultation
-              with one of your attorneys to discuss the particular legal
-              challenges you or your business is facing.
+            Para obtener más información sobre cómo podemos asistirle, no dude en contactarnos. Estamos aquí para ayudarle a navegar por el complejo panorama legal con confianza y seguridad.
             </p>
           </div>
-          <ButtonCustom href="#" text="Learn More" buttonType="secondary" />
+          <ButtonCustom href="/contact" text="Conocenos" buttonType="secondary" />
         </div>
         <div className="flex basis-full justify-center sm:text-center lg:block lg:basis-[30%]">
           <Image
