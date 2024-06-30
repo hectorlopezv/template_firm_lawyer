@@ -25,14 +25,16 @@ import { useToast } from "../ui/use-toast";
 
 const formSchema = z.object({
   firstName: z.string().min(3, {
-    message: "First Name must be at least 3 characters.",
+    message: "Nombre debe ser almenos 3 Nombre must be at least 3 characters..",
   }),
   lastName: z.string().min(3, {
-    message: "Last Name must be at least 3 characters.",
+    message: "Apellido debe ser almenos 3 characteres.",
   }),
-  email: z.string().email(),
+  email: z.string().email({message: "Correo electronico no valido."}),
   case: z.string(),
-  yourMessage: z.string().min(15),
+  yourMessage: z.string().min(15,{
+    message: "Mensaje debe tener almenos 15 characteres."
+  }),
 });
 
 export function ContactForm() {
@@ -55,6 +57,8 @@ export function ContactForm() {
       className:
         "top-0 right-0 flex fixed md:max-w-[420px] md:top-4 md:right-4 bg-background text-white",
     });
+    //TODO: Add form submission logic here
+    //TODO: Add stmp logic
   }
 
   return (
@@ -67,7 +71,7 @@ export function ContactForm() {
             <FormItem>
               <FormControl>
                 <Input
-                  placeholder="First Name"
+                  placeholder="Nombre"
                   {...field}
                   className="h-12 w-full rounded-none border-DEFAULT border-[#e8e6e6] bg-white px-4 py-2 font-bold text-background placeholder:text-base placeholder:font-normal placeholder:text-background focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0"
                 />
@@ -84,7 +88,7 @@ export function ContactForm() {
             <FormItem>
               <FormControl>
                 <Input
-                  placeholder="Last Name"
+                  placeholder="Apellido"
                   {...field}
                   className="h-12 w-full rounded-none border-DEFAULT border-[#e8e6e6] bg-white px-4 py-2 font-bold text-background placeholder:text-base placeholder:font-normal placeholder:text-background focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0"
                 />
@@ -102,7 +106,7 @@ export function ContactForm() {
               <FormControl>
                 <Input
                   type="email"
-                  placeholder="Email"
+                  placeholder="Correo"
                   {...field}
                   className="h-12 w-full rounded-none border-DEFAULT border-[#e8e6e6] bg-white px-4 py-2 font-bold text-background placeholder:text-base placeholder:font-normal placeholder:text-background focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0"
                 />
@@ -123,14 +127,14 @@ export function ContactForm() {
                 >
                   <SelectTrigger className="h-12 w-full rounded-none border-DEFAULT border-[#e8e6e6] bg-white px-4 py-2 text-base text-background placeholder:font-normal placeholder:text-background focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0">
                     <SelectValue
-                      placeholder="Your Case Falls In?"
+                      placeholder="Area practica"
                       className="font-normal"
                     />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="family">Family Law</SelectItem>
-                    <SelectItem value="child">Child Custody</SelectItem>
-                    <SelectItem value="business">Business Fraud</SelectItem>
+                    <SelectItem value="family">Derecho Laboral</SelectItem>
+                    <SelectItem value="child">Seguridad Social</SelectItem>
+                    <SelectItem value="business">Pensiones</SelectItem>
                   </SelectContent>
                 </Select>
               </FormControl>
@@ -146,7 +150,7 @@ export function ContactForm() {
             <FormItem>
               <FormControl>
                 <Textarea
-                  placeholder="Type your message here."
+                  placeholder="Escribe tu mensaje aqui, queremos saber mas de tu caso."
                   {...field}
                   className="h-48 w-full resize-none rounded-none border-DEFAULT border-[#e8e6e6] bg-white px-4 py-2 font-bold text-background placeholder:text-base placeholder:font-normal placeholder:text-background focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0"
                 />
@@ -160,7 +164,7 @@ export function ContactForm() {
           type="submit"
           className="h-auto rounded-none border bg-primary-main px-7 py-[14px] text-base font-bold uppercase text-white transition-colors duration-300 ease-in hover:border-primary-main hover:bg-white hover:text-primary-main"
         >
-          Contact Us
+          Enviar
         </Button>
       </form>
     </Form>

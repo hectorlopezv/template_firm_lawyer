@@ -29,7 +29,7 @@ const PABottomContent = () => {
           additionalClass="primary-headline-left"
         />
         <p className="mb-5 text-base leading-6 text-[#333]">
-          For almost 20 years, Lawyero family law attorneys have helped our
+          For almost 20 years, Lopez & Abogados family law attorneys have helped our
           clients with the following matters
         </p>
         <ul className="pb-8">

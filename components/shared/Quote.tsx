@@ -17,7 +17,7 @@ const Quote = ({ text, bgClass, textClass }: QuoteProps) => {
           />
           <p className={`text-[18px] italic lg:text-xl ${textClass}`}>
             {text}I was struggling to get my legal issues sorted out before i
-            met Mr. John at Lawyero. I was amazed by his attitude and attention
+            met Mr. John at Lopez & Abogados. I was amazed by his attitude and attention
             to detail and he sorted my case in no time understanding what i need
             to get done. Thankyou Mr. John.
           </p>

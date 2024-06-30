@@ -21,7 +21,7 @@ const Testimonials = () => {
         />
         <div className="container relative z-[3] pb-28 pt-16 sm:pb-14 lg:pb-20 lg:pt-24">
           <h2 className="relative z-[1] mb-12 pb-2 text-center text-[25px] font-bold text-white before:absolute before:inset-x-0 before:bottom-0 before:m-auto before:h-[3px] before:w-36 before:bg-white sm:text-[40px]">
-            What Our Customers Say
+            Lo Que Dicen Nuestros Clientes
           </h2>
           <TestimonialsCarousel />
         </div>

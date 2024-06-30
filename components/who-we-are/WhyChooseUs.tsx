@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
       </div>
       <div className="-order-1 basis-full pb-8 pl-8 pt-14 md:pb-4 lg:order-2 lg:basis-1/2 lg:pb-16 lg:pl-11 lg:pt-24">
         <PrimaryHeadline
-          text="Why Choose Us"
+          text="Por qué elegirnos"
           additionalClass="primary-headline-left"
         />
         {WhyChooseUsData.map((item) => (

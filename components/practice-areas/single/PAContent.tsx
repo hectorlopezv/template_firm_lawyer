@@ -22,7 +22,7 @@ const PAContent = () => {
             impact your decisions will have on you.
           </p>
           <p className="mb-5 text-base text-[#333]">
-            The family law attorneys at lawyero are committed to providing our
+            The family law attorneys at Lopez & Abogados are committed to providing our
             clients with the skill and expertise necessary to meet the client’s
             objectives and goalswhile providing a trusted source of
             representation. We are responsive to our clients’ needs and we pride

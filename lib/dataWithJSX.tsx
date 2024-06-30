@@ -122,13 +122,13 @@ export const HomepageFeatures: FeaturesProps[] = [
   },
 ];
 
-// Data for Why Choose Us Section
+// Data for Por qué elegirnos Section
 export const WhyChooseUsData: FeaturesProps[] = [
   {
     id: 1,
-    headline: "FREE CONSULTATION",
+    headline: "CONSULTA GRATIS",
     content:
-      "We offer free consultation and you never need to worry about the fees for consultation.",
+      "Ofrecemos consulta gratuita y usted nunca tendrá que preocuparse por los honorarios de la consulta.",
     iconName: (
       <Handshake
         size={72}
@@ -138,9 +138,9 @@ export const WhyChooseUsData: FeaturesProps[] = [
   },
   {
     id: 2,
-    headline: "MOST QUALIFIED TEAM",
+    headline: "EQUIPO MÁS CUALIFICADO",
     content:
-      "At Lawyero we have the best team which understands your case and try to help you achieve desired results.",
+      "En López & Abogados contamos con el mejor equipo que entiende su caso y trata de ayudarlo a lograr los resultados deseados.",
     iconName: (
       <GraduationCap
         size={72}
@@ -150,9 +150,9 @@ export const WhyChooseUsData: FeaturesProps[] = [
   },
   {
     id: 3,
-    headline: "NO WIN NO FEES",
+    headline: "SIN GANANCIAS SIN COMISIONES",
     content:
-      "We have helped numerous clients in their complicated law matters and we are expert at this.",
+      "Hemos ayudado a numerosos clientes en sus complicados asuntos legales y somos expertos en esto.",
     iconName: (
       <PoundSterling
         size={72}
@@ -166,9 +166,9 @@ export const WhyChooseUsData: FeaturesProps[] = [
 export const WeAreBestData: FeaturesProps[] = [
   {
     id: 1,
-    headline: "WE UNDERSTAND LAW",
+    headline: "ENTENDEMOS LA LEY",
     content:
-      "We have helped numerous clients in their complicated law matters and we are expert at this.",
+      "Hemos ayudado a numerosos clientes en sus complicados asuntos legales y somos expertos en esto.",
     iconName: (
       <Scale
         size={72}
@@ -178,9 +178,9 @@ export const WeAreBestData: FeaturesProps[] = [
   },
   {
     id: 2,
-    headline: "HAPPY CLIENTS",
+    headline: "CLIENTES FELICES",
     content:
-      "About 98% of our clients are satistied with the services they recieved and would be happy to recommend Lawyero to others.",
+      "Alrededor del 98% de nuestros clientes están satisfechos con los servicios que recibieron y estarían felices de recomendar López & Abogados a otros.",
     iconName: (
       <Smile
         size={72}
@@ -190,9 +190,9 @@ export const WeAreBestData: FeaturesProps[] = [
   },
   {
     id: 3,
-    headline: "WE LEAD YOU TO SUCCESS",
+    headline: "TE LLEVAMOS AL ÉXITO",
     content:
-      "Our ultimate goal is to help you and we believe that client is our asset.",
+      "Nuestro objetivo final es ayudarle y creemos que el cliente es nuestro activo.",
     iconName: (
       <Volume2
         size={72}

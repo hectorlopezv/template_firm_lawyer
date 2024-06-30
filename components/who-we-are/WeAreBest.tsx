@@ -8,7 +8,7 @@ const WeAreBest = () => {
     <div className="flex flex-wrap bg-lightgrey lg:flex-nowrap">
       <div className="relative basis-full px-8 pb-8 pt-16 sm:pb-12 lg:basis-1/2 lg:px-11 lg:pb-16 lg:pt-24">
         <PrimaryHeadline
-          text="We Are Best In Business"
+          text="Somos Los Mejores En Los Negocios"
           additionalClass="primary-headline-left"
         />
         {WeAreBestData.map((item) => (

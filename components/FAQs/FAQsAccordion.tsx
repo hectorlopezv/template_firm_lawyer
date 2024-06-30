@@ -6,7 +6,7 @@ import { FAQData } from "@/lib/data";
 const FAQsAccordion = () => {
   return (
     <div className="container lg:pt-[85px] pt-[70px] lg:pb-20 pb-16">
-      <PrimaryHeadline text="FAQs Accordion" />
+      <PrimaryHeadline text="Preguntas Frequentes" />
       <Accordions data={FAQData} />
     </div>
   );

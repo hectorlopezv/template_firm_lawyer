@@ -80,7 +80,7 @@ export const blogPosts: blogPostsProps[] = [
     excerpt:
       "Many people are not aware of their legal rights and dont pay attention to the helping hand they can get from legal advise. Therefore it is very important to know that you are aware of...",
     date: "2024-03-19T12:24:34",
-    author: "Lawyero",
+    author: "Lopez & Abogados",
     comments: 1,
   },
   {
@@ -95,7 +95,7 @@ export const blogPosts: blogPostsProps[] = [
     excerpt:
       "Every person have suffered from violence at work, home, school or any other place at least once in their life time. Most people dont share their experiences as they think this will be inappropriate to...",
     date: "2024-03-19T12:24:34",
-    author: "Lawyero",
+    author: "Lopez & Abogados",
     comments: 0,
   },
   {
@@ -110,7 +110,7 @@ export const blogPosts: blogPostsProps[] = [
     excerpt:
       "Emergency can be caused anywhere and can happen to anybody. People in the US have Emergency coverage provided by the government but it involves filling your case with great attention and need to be persuaded...",
     date: "2024-03-19T12:24:34",
-    author: "Lawyero",
+    author: "Lopez & Abogados",
     comments: 0,
   },
   {
@@ -125,7 +125,7 @@ export const blogPosts: blogPostsProps[] = [
     excerpt:
       "Whenever you are involved in an accident always avoid giving any statement before contacting you attorney. Legal advise is really important in these matters and your initial reaction can be make or break for your...",
     date: "2024-03-19T12:24:34",
-    author: "Lawyero",
+    author: "Lopez & Abogados",
     comments: 0,
   },
   {
@@ -140,7 +140,7 @@ export const blogPosts: blogPostsProps[] = [
     excerpt:
       "Many people are not aware of their legal rights and dont pay attention to the helping hand they can get from legal advise. Therefore it is very important to know that you are aware of...",
     date: "2024-03-19T12:24:34",
-    author: "Lawyero",
+    author: "Lopez & Abogados",
     comments: 0,
   },
   {
@@ -155,7 +155,7 @@ export const blogPosts: blogPostsProps[] = [
     excerpt:
       "Many people are not aware of their legal rights and dont pay attention to the helping hand they can get from legal advise. Therefore it is very important to know that you are aware of...",
     date: "2024-03-19T12:24:34",
-    author: "Lawyero",
+    author: "Lopez & Abogados",
     comments: 2,
   },
 ];
@@ -164,39 +164,39 @@ export const blogPosts: blogPostsProps[] = [
 export const FAQData: FAQsProps[] = [
   {
     id: 1,
-    question: "Do I Have A Case?",
+    question: "¿Tengo un caso?",
     answer:
-      "The answer of this question depends upon situation to situation. The best answer can only be achieved once you contact one of attorney who will guide you.",
+      "La respuesta a esta pregunta depende de una situación a otra. La mejor respuesta sólo se puede lograr una vez que se comunique con un abogado que lo guiará.",
   },
   {
     id: 2,
-    question: "Do Hiring You Guarantee Results?",
+    question: "¿Contratarlo garantiza resultados?",
     answer:
-      "The short answer to this question is No. Every case is different and prior results although show very high success rate but it still doesnt guarantee the same outcome.",
+      "La respuesta corta a esta pregunta es No. Cada caso es diferente y los resultados anteriores, aunque muestran una tasa de éxito muy alta, no garantizan el mismo resultado.",
   },
   {
     id: 3,
-    question: "What Is Your Consultation Fees?",
+    question: "¿Cuáles son sus honorarios de consulta?",
     answer:
-      "The consultation is absolutely free. Yes you have read it right absolutely free. Once you hire us for your case we only charge then.",
+      "La consulta es absolutamente gratuita. Sí, lo has leído bien, totalmente gratis. Una vez que nos contrate para su caso, solo cobraremos entonces.",
   },
   {
     id: 4,
-    question: "Which Areas Do You Cover?",
+    question: "¿Qué áreas cubre?",
     answer:
-      "We cover multiple areas mainly involving Family Law, Child Law, Emergency Law and Business Law. The complete list of all the Areas De Practica can be found on this website.",
+      "Abarcamos múltiples áreas que involucran principalmente Derecho de Familia, Derecho de Menores, Derecho de Emergencia y Derecho Comercial. La lista completa de todas las Áreas De Práctica se puede encontrar en este sitio web.",
   },
   {
     id: 5,
-    question: "What Is Attorney Customer Relationship?",
+    question: "¿Qué es la relación abogado-cliente?",
     answer:
-      "The initial consultation doesnt include Attorney Customer relationship. Only once you hire us then the attorney customer relationship is built.",
+      "La consulta inicial no incluye la relación Abogado-Cliente. Sólo una vez que nos contrata, se construye la relación abogado-cliente.",
   },
   {
     id: 6,
-    question: "Do You Screen All The Information You Get?",
+    question: "¿Se examina toda la información que se obtiene?",
     answer:
-      "At lawyero we treat privacy very strictly. All the information that you provide is confidential and wont be leaked under any circumstances.",
+      "En Lopez & Abogados tratamos la privacidad de manera muy estricta. Toda la información que usted proporcione es confidencial y no se filtrará bajo ninguna circunstancia."
   },
 ];
 
@@ -221,7 +221,7 @@ export const TeamMembers: TeamMembersProps[] = [
     image: a3,
     href: "#",
     name: "Alejandro Molinares",
-    designation: "Asesor Juridico Lopez & Abogados",
+    designation: "Asesor Juridico ",
   },
   // {
   //   id: 4,
@@ -245,25 +245,25 @@ export const Testimonials: TestimonialsProps[] = [
     id: 1,
     image: testimonialimg1,
     name: "Jessica Berrera",
-    text: "When we needed the legal assistance Lawyero came to our rescue. They took our case and get it solved in no time. Now when ever we need any assistance for legal matters we look no further then the lawyers at Lawyero. Thanks team Lawyero you are the best!",
-    organization: "Opus Internatational Ltd",
-    designation: "CEO Operations",
+    text: "Cuando necesitábamos asistencia legal, Lopez & Abogados vino a rescatarnos. Tomaron nuestro caso y lo resolvieron en poco tiempo. Ahora, cuando necesitamos ayuda con asuntos legales, no buscamos más que los abogados de Lopez & Abogados. Gracias equipo Lopez & Abogados sois los mejores!",
+    organization: "Cliente 1",
+    designation: "Derecho pensional",
   },
   {
     id: 2,
     image: testimonialimg2,
     name: "John Kerry",
-    text: "Our business was stuck in one of complex legal issue and one of our clients suggest team Lawyero. Now they are our official legal team which help us in numerous cases. Recommended to all!",
-    organization: "Parag States",
-    designation: "Founder",
+    text: "Nuestro negocio estaba atrapado en un problema legal complejo y uno de nuestros clientes sugirió el equipo de López & Abogados. Ahora son nuestro equipo legal oficial que nos ayuda en numerosos casos. ¡Recomendado a todos!",
+    organization: "Cliente 2",
+    designation: "Derecho pensional 2",
   },
   {
     id: 3,
     image: testimonialimg3,
     name: "Grant Josh",
-    text: "Team Lawyero is the best. Their team is awesome and when we visited their office their team welcomed us and make us feel really at home. They not only took our case but also helped us understand the complexity of the case. They fought for us and get the desired results soon. Thank you team lawyero! You are AWESOME.",
-    organization: "Daily Times Network",
-    designation: "Assistant Finance Manager",
+    text: "El equipo López & Abogados es el mejor. Su equipo es increíble y cuando visitamos su oficina, nos recibieron y nos hicieron sentir como en casa. No sólo tomaron nuestro caso sino que también nos ayudaron a comprender la complejidad del caso. Lucharon por nosotros y pronto obtuvieron los resultados deseados. ¡Gracias equipo López & Abogados! Usted es maravilloso.",
+    organization: "Cliente 3",
+    designation: "Drecho pensiona 3",
   },
 ];
 

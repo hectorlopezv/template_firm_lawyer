@@ -95,7 +95,7 @@ const Sidebar = () => {
       </div>
       <div className="mt-12">
         <PrimaryHeadline
-          text="About Lawyero"
+          text="About Lopez & Abogados"
           headlineType="h3"
           additionalClass="text-[32px] primary-headline-left text-background"
           formatTwoColor

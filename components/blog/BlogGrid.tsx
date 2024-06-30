@@ -42,7 +42,7 @@ const BlogGrid = () => {
                 <User className="w-5" />
                 <Link
                   className="pl-2 text-base text-[#313131] hover:text-primary-main"
-                  href="mailto:adminlawyerowpadmin"
+                  href="mailto:adminLopez & Abogadoswpadmin"
                 >
                   {item.author}
                 </Link>

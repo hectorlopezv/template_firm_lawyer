@@ -48,7 +48,7 @@ const NavDesktopContent = () => {
           </li> */}
           <li className="group">
             <Link
-              href="/who-we-are/"
+              href="/quienes-somos/"
               className="relative block py-7 duration-300 ease-in-out after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:scale-x-0 after:bg-primary-main after:transition-transform after:content-[''] group-hover:after:scale-x-100"
             >
               Quienes somos
@@ -124,7 +124,7 @@ const NavDesktopContent = () => {
             >
               <li>
                 <Link
-                  href="/single-team-member/"
+                  href="/equipo/hector-lopez"
                   className="group/subItem relative block px-5 py-4 transition-all hover:pl-7 hover:text-primary-main"
                 >
                   <ChevronRight
@@ -136,7 +136,7 @@ const NavDesktopContent = () => {
                         </li>
                         <li>
                 <Link
-                  href="/single-team-member/"
+                  href="/equipo/isabel-molinares"
                   className="group/subItem relative block px-5 py-4 transition-all hover:pl-7 hover:text-primary-main"
                 >
                   <ChevronRight
@@ -149,7 +149,7 @@ const NavDesktopContent = () => {
 
                         <li>
                 <Link
-                  href="/single-team-member/"
+                  href="/equipo/alejandro-molinares"
                   className="group/subItem relative block px-5 py-4 transition-all hover:pl-7 hover:text-primary-main"
                 >
                   <ChevronRight
@@ -163,16 +163,16 @@ const NavDesktopContent = () => {
           </li>
           <li className="group relative">
             <Link
-              href="#"
+              href="/preguntas-frequentes/"
               className="relative block py-7 pr-5 duration-300 ease-in-out after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:scale-x-0 after:bg-primary-main after:transition-transform after:content-[''] group-hover:after:scale-x-100"
             >
               Dudas frequentes
-              <ChevronDown
+              {/* <ChevronDown
                 size="15"
                 className="absolute right-0 top-1/2 -translate-y-1/2"
-              />
+              /> */}
             </Link>
-            <ul
+            {/* <ul
               className="absolute top-full z-10 origin-top-left scale-y-0 divide-y divide-[#29374a] rounded-b-lg bg-background opacity-0 transition delay-100 duration-500 ease-menu group-hover:scale-y-100 group-hover:opacity-100  lg:min-w-52"
               role="list"
             >
@@ -185,10 +185,10 @@ const NavDesktopContent = () => {
                     size="15"
                     className="absolute left-0 top-1/2 -translate-y-1/2 opacity-0 group-hover/subItem:left-[10px] group-hover/subItem:opacity-100 group-hover/subItem:transition group-hover/subItem:delay-100 group-hover/subItem:duration-300 group-hover/subItem:ease-menu"
                   />
-                  Faqs
+                  Preguntas frecuentes
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           {/* <li className="group relative">
             <Link
@@ -258,7 +258,7 @@ const NavDesktopContent = () => {
           </li> */}
           <li className="group relative">
             <Link
-              href="/contact/"
+              href="/contacto/"
               className="relative block py-7 duration-300 ease-in-out after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:scale-x-0 after:bg-primary-main after:transition-transform after:content-[''] group-hover:after:scale-x-100"
             >
               Contacto
