@@ -361,7 +361,7 @@ export const StatsWithIconTeam: StatsWithIconProps[] = [
     amountPreText: "",
     amount: 2000,
     amountPostText: "+",
-    text: "Happy Clients",
+    text: "Clientes felices",
     iconName: (
       <Smile
         size={72}
@@ -387,7 +387,7 @@ export const StatsWithIconTeam: StatsWithIconProps[] = [
     amountPreText: "$",
     amount: 20000000,
     amountPostText: "",
-    text: "Recovered",
+    text: "Recuperados",
     iconName: (
       <DollarSign
         size={72}

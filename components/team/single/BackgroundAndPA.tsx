@@ -5,14 +5,14 @@ import React from "react";
 import { splitHeadline } from "@/lib/utilFunctons";
 import LeftIconBox from "@/components/shared/LeftIconBox";
 
-const BackgroundAndPA = () => {
+const BackgroundAndPA = ({role=""}) => {
   return (
     <div className="overflow-hidden">
       <div className="container">
         <div className="flex flex-wrap lg:flex-nowrap">
           <div className="relative basis-full px-0 pb-12 pt-20 before:absolute before:-right-1/4 before:top-0 before:z-[-1] before:h-full before:w-[150vw] before:bg-grey before:content-[''] lg:basis-2/5 lg:pb-16 lg:pl-12 lg:pr-14 lg:pt-24 lg:before:right-0 lg:before:w-[50vw]">
             <PrimaryHeadline
-              text="Attorney Background"
+              text={`Experiencia ${role}`}
               additionalClass="primary-headline-left text-[32px]"
               headlineType="h3"
             />

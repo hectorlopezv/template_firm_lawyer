@@ -338,7 +338,7 @@ const NavMobileContent = () => {
                   <li className="group relative">
                     <SheetClose asChild>
                       <Link
-                        href="/contact/"
+                        href="/contacto/"
                         className="relative block border-b border-white py-3 duration-300 ease-in-out after:transition-transform"
                       >
                         Contact

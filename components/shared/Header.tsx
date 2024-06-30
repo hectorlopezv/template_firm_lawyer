@@ -25,7 +25,7 @@ const Header = () => {
               </div>
             </Link>
           </div>
-          <Link href="/contact" className="font-medium">
+          <Link href="/contacto" className="font-medium">
             Solicite una consulta gratuita
           </Link>
         </div>

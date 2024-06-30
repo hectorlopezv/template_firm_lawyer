@@ -28,7 +28,8 @@ const memberSocialLinks: {
   },
 ];
 
-const MemberDetails = () => {
+const MemberDetails = ({memberDetails={}, role=""}:any) => {
+  const {text1="", text2="", text3="", text4=""} = memberDetails;
   return (
     <div className="container py-16 lg:py-20">
       <div className="flex flex-wrap gap-8 lg:flex-nowrap">
@@ -38,7 +39,7 @@ const MemberDetails = () => {
             alt="Home Firm Image"
             className="rounded-md"
           />
-          <ul className="flex items-center justify-center py-5">
+          {/* <ul className="flex items-center justify-center py-5">
             {memberSocialLinks.map((link) => (
               <li className="ml-3 w-8" key={link.name}>
                 <Link href={link.link} target="_blank">
@@ -46,20 +47,22 @@ const MemberDetails = () => {
                 </Link>
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
         <div className="basis-full lg:basis-[70%]">
           <PrimaryHeadline
-            text="About Attorney"
+            text={`Sobre ${role}`}
             additionalClass="primary-headline-left"
           />
           <div className="text-base text-[#333]">
             <p className="mb-6">
+              {text1}
               Robert has been practicing law for last 13 years and have been
               very successful in getting his clients the protection within the
               jurisdictions of Law.
             </p>
             <p className="mb-6">
+              {text2}
               Robert earned his Juris Doctorate from Villanova University School
               of Law in Villanova, Pennsylvania in 2001. He earned his
               undergraduate degree from Denison University in 1998, having
@@ -70,12 +73,14 @@ const MemberDetails = () => {
               Villanova University School of Law Environmental Law Journal.
             </p>
             <p className="mb-6">
+              {text3}
               Mr. Robert is a firm believer of the fact that in order to be able
               to succeed in this industry you have to dedicate your time, work
               and emotions for the clients to get the best result out and
               keeping the clients in a state of mind that they ca
             </p>
             <p className="mb-6">
+              {text4}
               He has helped his clients recover over $150,000 in various cases
               and has nearly perfect success ratio.
             </p>

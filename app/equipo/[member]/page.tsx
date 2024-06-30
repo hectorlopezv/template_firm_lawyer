@@ -18,7 +18,6 @@ export const metadata: Metadata = {
 
 const page = ({params}:any) => {
   const {member} = params;
-  console.log({member})
   const memberImages = {
     "hector-lopez": a1,
     "isabel-molinares": a2,
@@ -29,11 +28,37 @@ const page = ({params}:any) => {
     "isabel-molinares": "Isabel Molinares",
     "alejandro-molinares": "Alejandro Molinares"
   } as const;
-  const image = memberImages?.[member];
-  const text = memberText?.[member];
+  const image = memberImages[member as any] as any;
+  const text = memberText[member as any] as any;
+  const detailsText={
+    "hector-lopez": {
+      "text1":"",
+      "text2":"",
+      "text3":"",
+      "text4":""
+    },
+    "isabel-molinares":  {
+      "text1":"",
+      "text2":"",
+      "text3":"",
+      "text4":""
+    },
+    "alejandro-molinares":  {
+      "text1":"",
+      "text2":"",
+      "text3":"",
+      "text4":""
+    },
+  } as const;
+  const roleText={
+    "hector-lopez": "Hector Lopez",
+    "isabel-molinares": "Isabel Molinares",
+    "alejandro-molinares": "Alejandro Molinares"
+  } as const;
+
   return (
     <>
-      <InnerBanner text={member} image={image} />
+      <InnerBanner text={text} image={image} />
 
       <MemberDetails />
 

@@ -48,21 +48,21 @@ export const bannerItems: bannerItemsType[] = [
     content: "Su firma de abogados para cada problema legal",
     linkText: "Conocenos",
     image: banner1,
-    linkHref: "/contact",
+    linkHref: "/contacto",
   },
   {
     id: 2,
     content: "Sin importar cuán complejo sea su problema legal",
     linkText: "Conocenos",
     image: banner2,
-    linkHref: "/contact",
+    linkHref: "/contacto",
   },
   {
     id: 3,
     content: "Nuestros abogados están comprometidos con usted",
     linkText: "Conocenos",
     image: banner3,
-    linkHref: "/contact",
+    linkHref: "/contacto",
   },
 ];
 

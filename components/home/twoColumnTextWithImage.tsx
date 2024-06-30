@@ -19,7 +19,7 @@ const TwoColumnTextWithImage = () => {
             Para obtener más información sobre cómo podemos asistirle, no dude en contactarnos. Estamos aquí para ayudarle a navegar por el complejo panorama legal con confianza y seguridad.
             </p>
           </div>
-          <ButtonCustom href="/contact" text="Conocenos" buttonType="secondary" />
+          <ButtonCustom href="/contacto" text="Conocenos" buttonType="secondary" />
         </div>
         <div className="flex basis-full justify-center sm:text-center lg:block lg:basis-[30%]">
           <Image
