@@ -56,7 +56,7 @@ const NavDesktopContent = () => {
           </li>
           <li className="group">
             <Link
-              href="#"
+              href="/areas-de-practica"
               className="relative block py-7 pr-5 duration-300 ease-in-out after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:scale-x-0 after:bg-primary-main after:transition-transform after:content-[''] group-hover:after:scale-x-100"
             >
               Areas de practica
@@ -71,7 +71,7 @@ const NavDesktopContent = () => {
             >
               <li>
                 <Link
-                  href="/practice-areas-2-column/"
+                  href="/areas-de-practica/derecho-laboral"
                   className="group/subItem relative block px-5 py-4 transition-all hover:pl-7 hover:text-primary-main"
                 >
                   <ChevronRight
@@ -83,7 +83,7 @@ const NavDesktopContent = () => {
               </li>
               <li>
                 <Link
-                  href="/practice-areas-3-column-layout/"
+                  href="/areas-de-practica/seguridad-social"
                   className="group/subItem relative block px-5 py-4 transition-all hover:pl-7 hover:text-primary-main"
                 >
                   <ChevronRight
@@ -95,7 +95,7 @@ const NavDesktopContent = () => {
               </li>
               <li>
                 <Link
-                  href="/single-practice-area/"
+                  href="/areas-de-practica/pensiones"
                   className="group/subItem relative block px-5 py-4 transition-all hover:pl-7 hover:text-primary-main"
                 >
                   <ChevronRight

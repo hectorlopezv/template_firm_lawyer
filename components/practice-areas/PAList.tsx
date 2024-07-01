@@ -13,7 +13,7 @@ const PAList = ({ layout }: { layout: string }) => {
           {PAData.map((item) => (
             <div key={item.id}>
               <div className="sm:flex block p-4 border-[1px] border-[#ccc] rounded">
-                <div className="sm:w-44 w-full shrink-0">
+                <div className="sm:w-44 w-full shrink-0 min-h-[333px]">
                   <Image
                     src={item.image}
                     alt="Practice Area Image"
@@ -46,15 +46,15 @@ const PAList = ({ layout }: { layout: string }) => {
   layout === "3-column" &&
     (content = (
       <div className="container lg:pb-28 pb-20">
-        <div className="grid grid-rows-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
+        <div className="grid grid-rows-1 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
           {PAData.map((item) => (
             <div key={item.id}>
               <div className="border-[1px] border-[#ccc] rounded overflow-hidden">
-                <div className="">
+                <div className="min-h-[337.34px]">
                   <Image
                     src={item.image}
                     alt="Practice Area Image"
-                    className="w-full"
+                    className="w-full min-h-[337.34px]"
                   />
                 </div>
                 <div className="p-5">

@@ -12,7 +12,48 @@ const listData: string[] = [
   "Martial Matters",
 ];
 
-const PABottomContent = () => {
+const PABottomContent = ({area}:any) => {
+  const areaContent = {
+    "derecho-laboral": {
+      headline: "Historia En Casos De Derecho Laboral",
+      text: "Durante casi 20 años, los abogados de derecho laboral de López & Abogados han ayudado a nuestros clientes con los siguientes asuntos",
+      image: paimagetopcontent,
+      servicios:[
+        "Divorce",
+        "Financial Matters",
+        "Agreements",
+        "Spouse Abuse",
+        "Childern",
+        "Martial Matters",
+      ]
+    },
+    "pensiones": {
+      headline: "Historia En Casos De Pensiones",
+      text: "Durante casi 20 años, los abogados de pensiones de López & Abogados han ayudado a nuestros clientes con los siguientes asuntos",
+      image: paimagetopcontent,
+      servicios:[
+        "Divorce",
+        "Financial Matters",
+        "Agreements",
+        "Spouse Abuse",
+        "Childern",
+        "Martial Matters",
+      ]
+    },
+    "seguridad-social": {
+      headline: "Historia En Casos De Seguridad Social",
+      text: "Durante casi 20 años, los abogados de seguridad social de López & Abogados han ayudado a nuestros clientes con los siguientes asuntos",
+      image: paimagetopcontent,
+      servicios:[
+        "Divorce",
+        "Financial Matters",
+        "Agreements",
+        "Spouse Abuse",
+        "Childern",
+        "Martial Matters",
+      ]
+    },
+  }
   return (
     <div className="flex flex-wrap gap-0 lg:flex-nowrap lg:gap-8">
       <div className="relative basis-full sm:min-h-96 sm:basis-full lg:min-h-full lg:basis-1/2">
@@ -25,15 +66,14 @@ const PABottomContent = () => {
       </div>
       <div className="basis-full px-8 py-16 sm:-order-1 lg:order-2 lg:basis-1/2 lg:pl-11 lg:pr-20">
         <PrimaryHeadline
-          text="History In Family Law Cases"
+          text={areaContent[area].headline}
           additionalClass="primary-headline-left"
         />
         <p className="mb-5 text-base leading-6 text-[#333]">
-          For almost 20 years, Lopez & Abogados family law attorneys have helped our
-          clients with the following matters
+          {areaContent[area].text}
         </p>
         <ul className="pb-8">
-          {listData.map((item, index) => (
+          {areaContent[area]?.servicios?.map((item, index) => (
             <li
               key={index}
               className="relative border-b border-[#313131] py-4 pl-5 text-base leading-6 text-[#313131]"
@@ -47,12 +87,7 @@ const PABottomContent = () => {
           ))}
         </ul>
         <p className="mb-5 text-base font-bold leading-6 text-[#333]">
-          Contact us today for an initial case evaluation. You will speak with
-          one of our attorneys to discuss your situation. You will receive
-          information concerning your particular matter and you can evaluate
-          whether our attorney fits your needs and comfort level. You can decide
-          whether our attorney is right for you. Contact us today at
-          1911-462-242.
+        Contáctenos hoy para una evaluación inicial de su caso. Hablará con uno de nuestros abogados para discutir su situación. Recibirá información sobre su asunto en particular y podrá evaluar si nuestro abogado se ajusta a sus necesidades y nivel de comodidad. Puede decidir si nuestro abogado es adecuado para usted. Contáctenos hoy al +57 301-4966-134.
         </p>
       </div>
     </div>

@@ -4,11 +4,6 @@ import homeblog3 from "@/public/assets/home-blog-3.jpg";
 import homeblog4 from "@/public/assets/home-blog-4.jpg";
 import homeblog5 from "@/public/assets/home-blog-5.jpg";
 import homeblog6 from "@/public/assets/home-blog-6.jpg";
-import teammember1 from "@/public/assets/team-member-1.jpg";
-import teammember2 from "@/public/assets/team-member-2.jpg";
-import teammember3 from "@/public/assets/team-member-3.jpg";
-import teammember4 from "@/public/assets/team-member-4.jpg";
-import teammember5 from "@/public/assets/team-member-5.jpg";
 import a1 from "@/public/assets/a_1.jpeg";
 import a2 from "@/public/assets/a_2.jpeg";
 import a3 from "@/public/assets/a_3.jpeg";
@@ -17,17 +12,13 @@ import testimonialimg1 from "@/public/assets/home-testimonial-img-1.jpeg";
 import testimonialimg2 from "@/public/assets/home-testimonial-img-2.jpeg";
 import testimonialimg3 from "@/public/assets/home-testimonial-img-3.jpeg";
 import paimage1 from "@/public/assets/pa-img-1.jpg";
-import paimage2 from "@/public/assets/pa-img-2.jpg";
+import paimage2 from "@/public/assets/pension.jpg";
 import paimage3 from "@/public/assets/pa-img-3.jpg";
-import paimage4 from "@/public/assets/pa-img-4.jpg";
-import paimage5 from "@/public/assets/pa-img-5.jpg";
-import paimage6 from "@/public/assets/pa-img-6.jpg";
-import paimage7 from "@/public/assets/pa-img-7.jpg";
-import paimage8 from "@/public/assets/pa-img-8.jpg";
 import homepageTypewriter from "@/public/assets/lawyer-ticker-min.jpg";
 import banner1 from "@/public/assets/banner/banner1.jpg";
 import banner2 from "@/public/assets/banner/banner2.jpg";
 import banner3 from "@/public/assets/banner/banner3.jpg";
+
 import {
   FAQsProps,
   PADataProps,
@@ -271,88 +262,88 @@ export const Testimonials: TestimonialsProps[] = [
 export const PAData: PADataProps[] = [
   {
     id: 1,
-    href: "/single-practice-area",
-    title: "Family Law",
-    text: "Family law involves a range of matters that are usually very personal, unique and emotionally challenging.",
+    href: "/areas-de-practica/derecho-laboral",
+    title: "Drecho Laboral",
+    text: "Principios y normas jurídicas que regulan las relaciones entre empleador(es), trabajador(es), las asociaciones sindicales del Estado",
     image: paimage1,
   },
   {
     id: 2,
-    href: "/single-practice-area",
-    title: "Child Custody",
-    text: "Child custody involves a range of matters that are usually very personal, unique and emotionally challenging.",
+    href: "/areas-de-practica/seguridad-social",
+    title: "Seguridad Social",
+    text: "Dentro de los aspectos claves de este sistema están incluidos diferentes  subsistemas respaldados por la ley, como las pensiones , riesgos laborales y salud",
     image: paimage2,
   },
   {
     id: 3,
-    href: "/single-practice-area",
-    title: "Emergency Law",
-    text: "Emergency law involves a range of matters that are usually very personal, unique and emotionally challenging.",
+    href: "/areas-de-practica/pensiones",
+    title: "Pensiones",
+    text: "Todo lo relacionado con la pensión de vejez, invalidez, sobrevivientes, sustitución pensional, pensión de gracia, pensión de invalidez",
     image: paimage3,
   },
-  {
-    id: 4,
-    href: "/single-practice-area",
-    title: "Criminal Law",
-    text: "Criminal law involves a range of matters that are usually very personal, unique and emotionally challenging.",
-    image: paimage4,
-  },
-  {
-    id: 5,
-    href: "/single-practice-area",
-    title: "Business Law",
-    text: "Business law involves a range of matters that are usually very personal, unique and emotionally challenging.",
-    image: paimage5,
-  },
-  {
-    id: 6,
-    href: "/single-practice-area",
-    title: "Real Estate Law",
-    text: "Real estate law involves a range of matters that are usually very personal, unique and emotionally challenging.",
-    image: paimage6,
-  },
-  {
-    id: 7,
-    href: "/single-practice-area",
-    title: "Personal Injury",
-    text: "Personal injury involves a range of matters that are usually very personal, unique and emotionally challenging.",
-    image: paimage7,
-  },
-  {
-    id: 8,
-    href: "/single-practice-area",
-    title: "Immigration Law",
-    text: "Immigration law involves a range of matters that are usually very personal, unique and emotionally challenging.",
-    image: paimage8,
-  },
-  {
-    id: 9,
-    href: "/single-practice-area",
-    title: "Family Law",
-    text: "Family law involves a range of matters that are usually very personal, unique and emotionally challenging.",
-    image: paimage1,
-  },
-  {
-    id: 10,
-    href: "/single-practice-area",
-    title: "Child Custody",
-    text: "Child custody involves a range of matters that are usually very personal, unique and emotionally challenging.",
-    image: paimage2,
-  },
-  {
-    id: 11,
-    href: "/single-practice-area",
-    title: "Emergency Law",
-    text: "Emergency law involves a range of matters that are usually very personal, unique and emotionally challenging.",
-    image: paimage3,
-  },
-  {
-    id: 12,
-    href: "/single-practice-area",
-    title: "Criminal Law",
-    text: "Criminal law involves a range of matters that are usually very personal, unique and emotionally challenging.",
-    image: paimage4,
-  },
+  // {
+  //   id: 4,
+  //   href: "/single-practice-area",
+  //   title: "Criminal Law",
+  //   text: "Criminal law involves a range of matters that are usually very personal, unique and emotionally challenging.",
+  //   image: paimage4,
+  // },
+  // {
+  //   id: 5,
+  //   href: "/single-practice-area",
+  //   title: "Business Law",
+  //   text: "Business law involves a range of matters that are usually very personal, unique and emotionally challenging.",
+  //   image: paimage5,
+  // },
+  // {
+  //   id: 6,
+  //   href: "/single-practice-area",
+  //   title: "Real Estate Law",
+  //   text: "Real estate law involves a range of matters that are usually very personal, unique and emotionally challenging.",
+  //   image: paimage6,
+  // },
+  // {
+  //   id: 7,
+  //   href: "/single-practice-area",
+  //   title: "Personal Injury",
+  //   text: "Personal injury involves a range of matters that are usually very personal, unique and emotionally challenging.",
+  //   image: paimage7,
+  // },
+  // {
+  //   id: 8,
+  //   href: "/single-practice-area",
+  //   title: "Immigration Law",
+  //   text: "Immigration law involves a range of matters that are usually very personal, unique and emotionally challenging.",
+  //   image: paimage8,
+  // },
+  // {
+  //   id: 9,
+  //   href: "/single-practice-area",
+  //   title: "Family Law",
+  //   text: "Family law involves a range of matters that are usually very personal, unique and emotionally challenging.",
+  //   image: paimage1,
+  // },
+  // {
+  //   id: 10,
+  //   href: "/single-practice-area",
+  //   title: "Child Custody",
+  //   text: "Child custody involves a range of matters that are usually very personal, unique and emotionally challenging.",
+  //   image: paimage2,
+  // },
+  // {
+  //   id: 11,
+  //   href: "/single-practice-area",
+  //   title: "Emergency Law",
+  //   text: "Emergency law involves a range of matters that are usually very personal, unique and emotionally challenging.",
+  //   image: paimage3,
+  // },
+  // {
+  //   id: 12,
+  //   href: "/single-practice-area",
+  //   title: "Criminal Law",
+  //   text: "Criminal law involves a range of matters that are usually very personal, unique and emotionally challenging.",
+  //   image: paimage4,
+  // },
 ];
 
 // Data for Team Member Education

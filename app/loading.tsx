@@ -23,14 +23,14 @@ const Loading = () => {
   return (
     <>
       <div className="absolute left-0 top-0 z-[100] flex h-screen w-full flex-col items-center justify-center  bg-primary-main text-2xl font-bold">
-        <div className="mb-4" id="loading-text">
+        <div className="mb-4 text-white" id="loading-text">
           Cargando<span className="opacity-100">.</span>
-          <span className="opacity-100">.</span>
-          <span className="opacity-100">.</span>
+          <span className="opacity-100 text-white">.</span>
+          <span className="opacity-100 text-white">.</span>
         </div>
-        <div className="h-7 w-40 rounded-full border-2 border-background">
+        <div className="h-7 w-40 rounded-full border-2 border-background text-white">
           <span
-            className="relative left-[2px] top-[2px] flex size-5 rounded-full bg-background opacity-90"
+            className="relative left-[2px] top-[2px] flex size-5 rounded-full bg-background opacity-90 text-white"
             id="loading-ball"
           ></span>
         </div>

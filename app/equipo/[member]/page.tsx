@@ -18,49 +18,65 @@ export const metadata: Metadata = {
 
 const page = ({params}:any) => {
   const {member} = params;
-  const memberImages = {
-    "hector-lopez": a1,
-    "isabel-molinares": a2,
-    "alejandro-molinares": a3,
-  } as const;
-  const memberText={
-    "hector-lopez": "Hector Lopez",
-    "isabel-molinares": "Isabel Molinares",
-    "alejandro-molinares": "Alejandro Molinares"
-  } as const;
-  const image = memberImages[member as any] as any;
-  const text = memberText[member as any] as any;
-  const detailsText={
-    "hector-lopez": {
-      "text1":"",
-      "text2":"",
-      "text3":"",
-      "text4":""
+  const contentMember={
+    "hector-lopez":{
+      "image":a1,
+      headline:"Abogado Hector Lopez",
+      name:"Hector Lopez",
+      "quote":`Estaba luchando por resolver mis problemas legales antes de conocer
+              Sr/a. Hector Lopez en López & Abogados. Me sorprendió su actitud y atención.
+              detalle y resolvió mi caso en poco tiempo entendiendo lo que necesito
+              para terminar. Gracias Sr/a. Hector Lopez`,
+              "text1":"Héctor López ha ejercido la abogacía durante los últimos 20 años y ha tenido mucho éxito en lograr que sus clientes obtengan protección dentro de las jurisdicciones de la ley. Hector Lopez obtuvo su licenciatura en derecha de la univerdad simon bolivar barranquilla/colombia, su especialidad en la universidad libre de barranquilla/colombia en seguridad social ",
+              "text2":null,
+      "text3":null,
+      "text4":null,
+      "background":{
+        "areas-de-practica":["Derecho Laboral", "Seguridad Social", "Pensiones"]
+      }
+
+
     },
-    "isabel-molinares":  {
-      "text1":"",
-      "text2":"",
-      "text3":"",
-      "text4":""
+    "isabel-molinares":{
+      "image":a2,
+      headline:"Abogada Isabel Molinares",
+      name:"Isabel Molinares",
+      "quote":`Estaba luchando por resolver mis problemas legales antes de conocer
+              Sr/a. Isabel Molinares en López & Abogados. Me sorprendió su actitud y atención.
+              detalle y resolvió mi caso en poco tiempo entendiendo lo que necesito
+              para terminar. Gracias Sr/a. isabel Molinares`,
+      "text1":"Isabel Molinares ha ejercido la abogacía durante los últimos 5 años y ha tenido mucho éxito en lograr que sus clientes obtengan protección dentro de las jurisdicciones de la ley. ",
+      "text2":null,
+      "text3":null,
+      "text4":null,
+      "background":{
+        "areas-de-practica":["Derecho Laboral", "Seguridad Social", "Pensiones"]
+      }
     },
-    "alejandro-molinares":  {
-      "text1":"",
-      "text2":"",
-      "text3":"",
-      "text4":""
-    },
-  } as const;
-  const roleText={
-    "hector-lopez": "Hector Lopez",
-    "isabel-molinares": "Isabel Molinares",
-    "alejandro-molinares": "Alejandro Molinares"
-  } as const;
+    "alejandro-molinares":{
+      "image":a3,
+      headline:"Asesor Juridico Alejandro Molinares",
+      name:"Alejandro Molinares",
+      "quote":`Estaba luchando por resolver mis problemas legales antes de conocer
+              Sr/a. Alejandro Molinares en López & Abogados. Me sorprendió su actitud y atención.
+              detalle y resolvió mi caso en poco tiempo entendiendo lo que necesito
+              para terminar. Gracias Sr/a. Alejandro Molinares`,
+      "text1":"Asesor Juridico de lopez Abogados por mas de 7 anos ",
+      "text2":null,
+      "text3":null,
+      "text4":null,
+      "background":{
+        "areas-de-practica":["Derecho Laboral", "Seguridad Social", "Pensiones"]
+      }
+    }
+  }
+
 
   return (
     <>
-      <InnerBanner text={text} image={image} />
+      <InnerBanner text={contentMember[member]?.headline} image={contentMember[member]?.image} />
 
-      <MemberDetails />
+      <MemberDetails details={{...contentMember[member]}}/>
 
       <Stats />
 
@@ -76,10 +92,7 @@ const page = ({params}:any) => {
       <BackgroundAndPA />
 
       <Quote
-        text={`""Estaba luchando por resolver mis problemas legales antes de conocer
-              Sr/a. ${text} en López & Abogados. Me sorprendió su actitud y atención.
-              detalle y resolvió mi caso en poco tiempo entendiendo lo que necesito
-              para terminar. Gracias Sr/a. ${text}""`}
+        text={contentMember[member]?.quote}
         bgClass="bg-primary-main"
         textClass="text-white"
       />

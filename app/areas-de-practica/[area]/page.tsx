@@ -12,23 +12,29 @@ export const metadata: Metadata = {
   description: "Your one stop solution for legal matters",
 };
 
-const page = () => {
+const page = ({params}:any) => {
+  const {area} = params;
+  const practiceText = {
+    "derecho-laboral": "Derecho Laboral",
+    "pensiones": "Pensiones",
+    "seguridad-social": "Seguridad Social",
+  }
   return (
     <>
-      <InnerBanner text="FAMILY LAW" image={singlepabanner} />
+      <InnerBanner text={practiceText[area] as any} image={singlepabanner} />
 
-      <PAContent />
+      <PAContent area={area as any}/>
 
       <CTA
         bgClass="bg-primary-main"
         headline="Obtenga la consulta para las cuestiones legales más complejas."
-        buttonLink="#"
+        buttonLink="/quienes-somos"
         buttonText="Conocenos"
         ctaType="withBg"
         buttonType="dark"
       />
 
-      <PABottomContent />
+      <PABottomContent area={area as any} />
 
       <PreFooter />
     </>

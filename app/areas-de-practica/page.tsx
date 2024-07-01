@@ -12,13 +12,13 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <InnerBanner text="Areas De Practica 3 COLUMN" />
+      <InnerBanner text="Areas De Practica" />
 
       <HeadlineWithText
         headlineText="Areas De Practica"
-        text="At Lopez & Abogados we practice almost all areas of life. Some of the most
-          notable Areas De Practica in which we have helped number of our clients
-          to achieve their goals according to the laws are as follows:"
+        text="En López & Abogados practicamos casi todas las áreas de la vida. Algunos de los más
+          Áreas De Práctica notables en las que hemos ayudado a varios de nuestros clientes
+          para lograr sus objetivos de acuerdo con las leyes son los siguientes:"
       />
 
       <PAList layout="3-column" />
